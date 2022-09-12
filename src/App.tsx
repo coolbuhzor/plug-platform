@@ -12,12 +12,12 @@ function App() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-full relative overflow-y-scroll justify-start h-full w-full max-w-[1440px]  flex ">
+    <div className="min-h-full relative overflow-y-scroll justify-start h-full w-full max-w-[1440px]  flex overflow-hidden">
       <section className="flex w-full h-screen min-h-[800px] items-center justify-start overflow-hidden">
         <div className="hidden lg:block lg:h-full w-[361px] overflow-hidden">
           <Sidebar />
         </div>
-        <main className="flex h-full w-full mt-[200px] flex-col bg-[#f5f8fe] flex-1 justify-start overflow-y-scroll">
+        <main className="flex h-full w-full mt-[200px] flex-col bg-[#f5f8fe] flex-1 justify-start overflow-y-scroll ">
           <div className="w-full absolute top-0  h-[93px] flex items-center bg-white z-10 justify-between">
             <p className=" w-[60%] lg-w-[unset] text-[#30425A] font-overpass font-normal text-[18px] leading-[23px] pl-[35px]">
               Acumen Digital Interview Task / Elephantom
