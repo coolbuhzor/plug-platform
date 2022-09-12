@@ -14,7 +14,7 @@ const Home = () => {
 
   const fetchData = () => {
     setLoading(true);
-    fetch("http://acumen-elephantom.herokuapp.com/elephants/asian")
+    fetch("https://acumen-elephantom.herokuapp.com/elephants/asian")
       .then((response) => response.json())
       .then((data) => {
         setData(data.data);
