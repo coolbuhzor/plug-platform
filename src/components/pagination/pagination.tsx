@@ -29,7 +29,7 @@ const Pagination = (props: Props) => {
   };
 
   return (
-    <nav data-testid="pagination" className=" w-full ">
+    <nav className=" w-full ">
       {
         <div className="flex items-center justify-center w-full">
           <p className=" text-[#30425A] font-normal text-[14px] opacity-[0.9] leading-[15px] mr-[20px]">
